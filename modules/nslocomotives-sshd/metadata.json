@@ -1,0 +1,14 @@
+{
+  "name": "nslocomotives-sshd",
+  "version": "0.1.0",
+  "author": "nslocomotives",
+  "summary": "a module to manage sshd",
+  "license": "Apache 2.0",
+  "source": "https://github.com/nslocomotives/puppet.git",
+  "issues_url": "https://github.com/nslocomotives/puppet/issues",
+  "project_page": "https://github.com/nslocomotives/puppet",
+  "dependencies": [
+    {"version_requirement":">= 1.0.0","name":"puppetlabs-stdlib"}
+  ]
+}
+
