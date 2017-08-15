@@ -5,6 +5,8 @@ node default {
 
 node /^jenkins\d+\.local/ {
     include cron-puppet
-    class { 'sshd': }               # use nslcomotives sshd module
+    class { 'sshd': }               # use nslocomotives sshd module
     class { 'apache': }             # use apache module
 } 
+
+# TODO : write a node definition for the dev servers
