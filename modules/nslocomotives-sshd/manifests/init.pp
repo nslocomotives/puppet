@@ -35,7 +35,7 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class nslocomotives-sshd {
+class sshd {
 
   service { 'sshd':
     enable => true,

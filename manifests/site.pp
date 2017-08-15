@@ -1,10 +1,10 @@
 node default {
     include cron-puppet
-    include nslocomotives-sshd
+    include sshd
 }
 
 node /^jenkins\d+\.local/ {
     include cron-puppet
-    include nslocomotives-sshd
-    include apache
+    class { 'sshd': }               # use nslcomotives sshd module
+    class { 'apache': }             # use apache module
 } 
