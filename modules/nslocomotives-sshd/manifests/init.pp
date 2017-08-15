@@ -1,6 +1,6 @@
 # == Class: sshd
 #
-# Full description of class sshd here.
+# A quick puppet class to automate turning on sshd and to configure it for use on the hosts I manage using puppet.
 #
 # === Parameters
 #
@@ -29,11 +29,11 @@
 #
 # === Authors
 #
-# Author Name <author@domain.com>
+# Nigel Smith <nslocmotives@hotmail.com>
 #
 # === Copyright
 #
-# Copyright 2017 Your name here, unless otherwise noted.
+# Copyright 2017 Nigel Smith.
 #
 class sshd {
 
